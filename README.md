@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/shivucr23">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=750&height=50&lines=Automotive+Embedded+Software+Engineer;ECU+Bootloaders+%7C+UDS+ISO+14229;In-Vehicle+Networking+%7C+CAN+%26+CAN-FD;Automotive+Cybersecurity+%7C+SecOC+%26+SHE;Binary+Workstations+%7C+Vector+HexView" alt="Typing Headline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=1200&color=58A6FF&center=true&vCenter=true&multiline=false&width=750&height=50&lines=Automotive+Embedded+Software+Engineer;ECU+Bootloaders+%7C+UDS+ISO+14229;Binary+Workstations+%7C+HexView" alt="Typing Headline" />
   </a>
 </p>
 
@@ -23,11 +23,11 @@
 
 ### 👨‍💻 Engineering Profile
 
-Automotive systems and firmware engineer specializing in **ECU Bootloader Architecture**, **Diagnostic Protocols (ISO 14229 / ISO 15765-2)**, and **Embedded Firmware Security**. Experienced in designing deterministic reflashing workflows, in-vehicle network stacks (CAN, CAN-FD), and hardware-grade cryptographic workstations.
+Automotive systems and firmware engineer specializing in **ECU Bootloader Architecture**, **Diagnostic Protocols (ISO 14229 / ISO 15765-2)**, and **Embedded Firmware Processing**. Experienced in designing deterministic reflashing workflows, binary memory transformations, and cryptographic workstations.
 
-- 🚗 **ECU Bootloader Engineering**: Complete flashing pipelines over CAN and CAN-FD networks with diagnostic session control, block-by-block pipelined transfers, and flash driver integration.
-- 🛡️ **Automotive Firmware Security**: Implementing and modeling specifications for AUTOSAR SecOC, HIS SHE v1.1, secure boot validation, digital signature verification, and automotive PKI.
-- 🔬 **Binary & Firmware Processing**: Comprehensive parsing, remapping, slicing, and checksumming of Motorola S-Records (.s19), Intel HEX (.hex), Volvo VBF (.vbf), and binary images matching Vector HexView algorithms.
+- 🚗 **ECU Bootloader Engineering**: Complete reflashing pipelines with diagnostic session control, block-by-block pipelined transfers, and flash driver integration.
+- 🛡️ **Automotive Firmware Security**: Implementing secure boot validation, digital signature verification, and automotive PKI architectures.
+- 🔬 **Binary & Firmware Processing**: Comprehensive parsing, remapping, slicing, and checksumming of Motorola S-Records (.s19), Intel HEX (.hex), Volvo VBF (.vbf), and binary images matching HexView algorithms.
 - ⚡ **Standalone Tooling**: Author of production-grade, zero-dependency Windows desktop tools for calibration, reflashing, and cryptographic analysis.
 
 ---
@@ -36,11 +36,11 @@ Automotive systems and firmware engineer specializing in **ECU Bootloader Archit
 
 | Domain | Specialization & Standards |
 | :--- | :--- |
-| **Diagnostic Protocols** | ISO 14229-1 (UDS), ISO 15765-2 (DoCAN), ISO 11898 (CAN / CAN-FD), AUTOSAR Diagnostic Stack |
+| **Diagnostic Protocols** | ISO 14229-1 (UDS), ISO 15765-2 (DoCAN), AUTOSAR Diagnostic Stack |
 | **Core Languages** | C, C++, Python 3, JavaScript (React / Vite), Shell Scripting |
 | **Firmware & Data Formats** | Motorola S-Record (.s19, .s28, .s37), Intel HEX (.hex, .ihx), Volvo VBF (.vbf v2.1), Raw Binary (.bin) |
-| **Hardware Cryptography** | AES-128/256 (CBC, GCM), RSA-PSS, ECDSA NIST P-256, Ed25519, HMAC, AES-CMAC, Vector Checksums (Methods 0–20) |
-| **CAN Hardware Interfaces** | PEAK PCAN-USB, Vector Informatik (XL Driver Library), Kvaser, Intrepid ValueCAN, Virtual CAN |
+| **Hardware Cryptography** | AES-128/256 (CBC, GCM), RSA-PSS, ECDSA NIST P-256, Ed25519, HMAC, AES-CMAC, HexView Checksums (Methods 0–20) |
+| **Diagnostic Interfaces** | PEAK-System, Vector Informatik, Kvaser, Intrepid, Virtual Interfaces |
 | **Workstation Architecture** | FastAPI, React Desktop Workstations, PyInstaller Single-File Executables, CI/CD Automation |
 
 ---
@@ -56,8 +56,8 @@ A production-grade suite of zero-dependency desktop applications for automotive 
       <h4 align="center">🚀 Automotive UDS Download Tool (v1.3.1)</h4>
       <ul>
         <li><b>Protocol Stack</b>: Complete ISO 14229 Diagnostic Session Control, Security Access (0x27), Routine Control, and block flashing.</li>
-        <li><b>Transport Layer</b>: ISO 15765-2 DoCAN handling Single Frames, First Frames, Consecutive Frames, and Flow Control.</li>
-        <li><b>Hardware Support</b>: PEAK PCAN, Vector CAN, Kvaser, and Virtual CAN.</li>
+        <li><b>Transport Layer</b>: ISO 15765-2 handling Single Frames, First Frames, Consecutive Frames, and Flow Control.</li>
+        <li><b>Hardware Support</b>: PEAK, Vector, Kvaser, and Virtual Interfaces.</li>
         <li><b>Binary</b>: Single-file zero-dependency executable (<code>UDS_Download_Tool.exe</code>).</li>
       </ul>
       <p align="center">
@@ -69,9 +69,9 @@ A production-grade suite of zero-dependency desktop applications for automotive 
     <td width="50%" valign="top">
       <h4 align="center">🛡️ CipherHex Workstation (v1.0.0)</h4>
       <ul>
-        <li><b>Vector HexView Alternative</b>: High-performance memory remapping, segment inspection, and binary diffing.</li>
-        <li><b>Vector Checksums</b>: Exact match for Vector Table 3-3 algorithms (Methods 0–20, CRC32, GM ByteSums, SHA-256).</li>
-        <li><b>Crypto Suite</b>: AES-128/256, ECDSA P-256 signatures, AUTOSAR SecOC, and HIS SHE modeling.</li>
+        <li><b>HexView Workstation</b>: High-performance memory remapping, segment inspection, and binary diffing.</li>
+        <li><b>HexView Checksums</b>: Exact match for HexView Table 3-3 algorithms (Methods 0–20, CRC32, GM ByteSums, SHA-256).</li>
+        <li><b>Crypto Suite</b>: AES-128/256, ECDSA P-256 digital signatures, and automotive PKI modeling.</li>
         <li><b>Binary</b>: Single-file zero-dependency executable (<code>CipherHex.exe</code>).</li>
       </ul>
       <p align="center">
