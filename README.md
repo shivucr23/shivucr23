@@ -5,12 +5,6 @@
 <h1 align="center">Hi there, I'm Shivu 👋</h1>
 <h3 align="center">Automotive Embedded Software Engineer & Firmware Security Specialist</h3>
 
-<p align="center">
-  <a href="https://github.com/shivucr23"><img src="https://img.shields.io/badge/Focus-Automotive%20Embedded%20%7C%20Bootloaders%20%7C%20UDS-0078D6?style=for-the-badge" alt="Focus" /></a>
-  <a href="https://github.com/shivucr23"><img src="https://img.shields.io/badge/Protocols-ISO%2014229%20%7C%20ISO%2015765--2%20%7C%20CAN--FD-orange?style=for-the-badge" alt="Protocols" /></a>
-  <a href="https://github.com/shivucr23"><img src="https://img.shields.io/badge/Security-AUTOSAR%20SecOC%20%7C%20HIS%20SHE%20%7C%20Crypto-blueviolet?style=for-the-badge" alt="Security" /></a>
-</p>
-
 ---
 
 ### 👨‍💻 About Me
